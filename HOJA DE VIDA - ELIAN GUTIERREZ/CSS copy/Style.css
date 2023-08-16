@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body{
+    display: flex;
+    color: white;
+    font-family: Arial;
+}
+/*Primer contenedor, el que tiene la foto*/
+.information-Per{
+    background-color: #252A2E;
+    height: 100vh;
+    width: 25vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Imagen de perfil*/
+.container-image{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px;
+}
+
+.container-image img{
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.information-Per h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+}
+
+.information-Per p{
+    color: white;
+    font-family: Arial;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.line{
+    background-color: aliceblue;
+    height: 2px;
+    width: 70%;
+    margin-top: 30px;
+}
+.line2{
+    background-color: aliceblue;
+    height: 2px;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.information-Per h2{
+    color: white;
+    font-family: 'arial';
+    margin-top: 20px;
+}
+
+
+
+/*segundo contenedor*/
+.information-adic {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-sub{
+    color: black;
+    font-family: arial;
+    padding-top: 10%;   
+}
+.titulo-sub1{
+    color: black;
+    font-family: arial;
+    padding-top: 10%;
+}
+
+.information-adic p{
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 120%;
+} 
+
+.line4{
+    background-color:black;
+    height: 2px;
+    width: 70%;
+    margin-bottom: 20px;
+    
+}
+
+
+/*tercer contenedor*/
+.information-ad2{
+    background-color: #252A2E;
+    height: 100vh;
+    width: 25vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.line3{
+    background-color: aliceblue;
+    height: 2px;
+    width: 40%;
+    margin-top: 2x;
+    padding-left: 50%;
+    margin-bottom: 50px;
+}
+.information-ad2 p{
+    color: white;
+    font-family: Arial;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 120%;
+}
+
+.information-ad2 h2{
+    padding-top: 15%;
+}
