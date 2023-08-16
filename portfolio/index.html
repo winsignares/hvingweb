@@ -1,90 +1,68 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Javier Coronado</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="" class="logo">JC</a>
-      <i class='bx bx-menu' id="menu-icon"></i>
-      <na class="navbar">
-        <a href="#home" class="active" id="">Inicio</a>
-        <a href="#about" class="" id="">Acerca de mi</a>
-        <a href="#services" class="" id="">Servicios</a>
-        <a href="#portfolio" class="" id="">Certificados</a>
-        <a href="#contact" class="" id="">Contacto</a>
-      </na>
-    </header>
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hola soy </h3>
-            <h1>Javier Coronado</h1>
-            <h3>Y soy un <span>Ingeniero</span><span>De sistemas (en proceso)</span></h3>
-            <p>con pasión por la ciberseguridad. Mi objetivo es garantizar soluciones tecnológicas sólidas 
-                tambien soy el mejor Outfielder de todos los tiempos</p>
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-meta' ></i> </a>
-                <a href="#"><i class='bx bx-baseball' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i> </a>
-                <a href="#"><i class='bx bx-game' ></i> </a>
-            </div>
-            <a href="" class="btn">Descargar hoja de vida</a>
-        </div>
-        <div class="home-img">
-            <img src="images/home-01.png" alt="">
-
-        </div>
-
-    </section>
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/dinosaur-01.png" alt="">
-
-        </div>
-        <div class="about-content">
-            <h2 class="heading">Acerca de <span>mi</span></h2>
-            <h3>Estudiante de ingenieria de sistemas</h3>
-            <p>Joven perdido sin sentido y depresivo, pelotero juego todas
-            las posiciones del outfield, tambien juego primera base, tambien me gusta leer, arriba los yankees
-            <a href="#" class="btn" id="">
-                Leer mas
-            </a>
-            </p>
-        </div>
-    </section>
-    <section class="services" id="services">
-        <h2 class="heading">Mis <span>Servicios</span></h2>
-        <div class="services-container">
-           <div class="services-box">
-            <i class='bx bx-code'></i>
-            <h3>Programacion</h3>
-            <p>Aqui va un texto sobre programacion bla bla Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Quod, optio.</p>
-                <a href="#" class="btn" id="">Lee mas</a>
-           </div> 
-           <div class="services-box">
-            <i class='bx bxs-baseball'></i>
-            <h3>Baseball</h3>
-            <p>Aqui va un texto sobre Baseball n bla bla Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Quod, optio.</p>
-                <a href="#" class="btn" id="">Lee mas</a>
-           </div> 
-           <div class="services-box">
-            <i class='bx bx-sad' ></i>
-            <h3>Depresion</h3>
-            <p>Aqui va un texto sobre depresion n bla bla Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Quod, optio.</p>
-                <a href="#" class="btn" id="">Lee mas</a>
-           </div> 
-        </div>
-    </section>
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sintony&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title>Portfolio</title>
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="#ham">About me</a>
+			<a href="#hP">Projects</a>
+			<a href="#hC">Contact</a>
+		</h1>
+	</header>
+	<section class="welcome">
+		<div id="cWelcome">
+			<h1>Welcome to my Portfolio</h1>
+			<p>I'm Ellery Ricaurte</p>
+		</div>
+	</section>
+	<section class="AboutMe" id="ham">
+			<h1>About Me</h1>	
+			<div class="am">
+				<img src="img/ellery.jpg" alt="ellery.jpg">
+				<p> Hi, I'm Ellery Ricaurte, Systems Engineering student, I have knowledge in web development, Java, Pyhton and flutter. I am currently in a research hotbed carrying out a project.</p>
+			</div>
+	</section>
+	<section class="Projects" id="hP">
+		<h1>Projects</h1>
+		<div class="containProjects">
+			<div class="project1">
+				<a href="CALCULATOR/index.html"><img src="img/calculator.PNG" alt="calculadora"></a>
+			</div>
+			<div class="project2">
+				<a href="Headers/index.html"><img src="img/htmlP.PNG" alt="Project2"></a>
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="hC">
+		<h1>Contact</h1>
+		<div class="contact">
+			<form>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required>
+			  
+				<label for="correo">Correo electrónico:</label>
+				<input type="email" id="correo" name="correo" required>
+			  
+				<label for="telefono">Teléfono:</label>
+				<input type="tel" id="telefono" name="telefono">
+			  
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje" required></textarea>
+			  
+				<button type="submit">Enviar</button>
+			  </form>
+		</div>
+	</section>
+	<footer>
+		<h2>Copyright 2023</h2>
+	</footer>
+</body>
 </html>
