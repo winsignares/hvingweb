@@ -1,0 +1,92 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #001f3f;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  width: 409.5px;
+  height: 50%;
+  border-radius: 33px;
+  background: #e0e0e0;
+  box-shadow: 35px 35px 70px #bababa, -35px -35px 70px #ffffff;
+}
+
+#screen {
+  display: flex;
+  border-radius: 15px;
+  background: #e0e0e0;
+  box-shadow: inset 10px 10px 20px #bebebe, inset -10px -10px 20px #ffffff;
+  margin: 15px auto;
+  width: 90%;
+  height: 100px;
+  line-height: 100px;
+  margin: 10px 5%;
+}
+
+#display_l {
+  float: left;
+  font-size: 30px;
+  margin-left: 10px;
+  display: flex;
+}
+#display_r {
+  font-size: 40px;
+  width: 100%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.buts {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bababa, -5px -5px 10px #ffffff;
+  margin: 7px auto;
+}
+
+.buth {
+  display: flex;
+  flex-direction: row;
+}
+
+#btn_0 {
+  margin: 7px auto;
+}
+
+.buts:hover {
+  color: #e0e0e0;
+  border-radius: 50%;
+  background: #001f3f;
+  box-shadow: inset 10px 10px 20px #001225, inset -10px -10px 20px #002c59;
+}
+
+.display_l{
+  float: left;
+}
