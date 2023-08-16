@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:rgb(235, 247, 248);
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    
+}
+h1, h2{
+    color: black;
+}
+
+body img {
+    width: 190px;
+    height: 200px;
+    
+}
+.jj {
+    text-align: center;
+}
+
+body .imagen-princ{
+    display: flex;
+    justify-content: center;
+}

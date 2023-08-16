@@ -6,6 +6,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     text-align: left;
     background-color: #aedbb5;
     color: black;
@@ -13,6 +15,11 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
     font-stretch: extra-expanded;
+}
+
+header .img-content img {
+    width: 165px;
+    
 }
 
 .flex-container {

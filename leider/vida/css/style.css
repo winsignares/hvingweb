@@ -1,0 +1,30 @@
+.prin{
+    
+    display: flex;
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+    text-align: center;
+    background-color: black;
+}
+
+
+.iz{
+    background-color: aquamarine;
+    width: 70%;
+    height: 100vh;
+    
+    font-size: 90%;
+
+}
+ul{
+    text-align: left;
+}
+
+.de{
+    background-color: rgb(205, 231, 255);
+    width: 70%;
+    height: 100vh;
+   
+
+}
