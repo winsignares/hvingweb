@@ -1,0 +1,183 @@
+*{
+    font-family: 'Gugi', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.wrapper,
+.Portfolio{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+padding: 2em;
+
+
+}
+.menu {
+display: flex;
+width: 50%;
+justify-content: space-around;
+
+}
+.menu li {
+list-style: none;
+
+}
+
+.menu a {
+ color: #fff;
+ text-decoration: none;
+ padding: 10px 20px;
+}
+
+.brand {
+margin-top: -7px;
+
+}
+
+.brand span{
+    color: green;
+}
+
+.menu .active{
+
+color: green;
+}
+
+.menu a:hover {
+
+    background-color: green;
+    color: #191c32;
+    transition: ease-in .4s;
+
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    align-items: center;
+
+}
+
+h1 {
+font-size: 3em;
+
+}
+
+span {
+
+color: green;
+}
+
+.download-cv{
+
+    padding: 10px 20px;
+    background-color: #149739;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    
+    overflow: hidden;
+    transition: 0.2s;
+}
+.download-cv:hover{
+background: #49eb89;
+box-shadow: 0 0 10px #49eb89,
+ 0 0 40px #49eb89, 
+ 0 0 80px #49eb89;
+}
+
+.about {
+
+background-color: #000000;
+width: 100vw;
+margin: 0 auto;
+
+}
+
+
+.about h2{
+font-size: 2em;
+color:#ffffff;
+padding: 10px 70px;
+display: grid;
+grid-template-columns: repeat(2,1fr) ;
+align-items: center;
+padding: 10px 20px;
+
+
+
+    }
+    
+
+.about p{
+font-size: 2em;
+color: #ffffff;
+text-align: justify;
+padding: 10px 100px;
+
+
+}
+
+.portfolio-headings{
+
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    align-items: center;
+    padding: 10px 20px;
+    
+
+    
+}
+
+.portfolio-headings h2{
+
+    font-size: 2em;
+    color:#ffffff;
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    align-items: center;
+    padding: 10px -3%;
+
+}
+
+.Portfolio .container{
+    width: 86vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+
+
+
+}
+
+
+#img{
+width: 400px;
+
+
+}
