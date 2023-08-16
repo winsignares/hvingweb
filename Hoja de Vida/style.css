@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E5DADA;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    height: 300px;
+    background: orange;
+    transform: skewY(-5deg);
+}
+
+.name .contenido {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+
+}
+
+.name .contenido .p-1 {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 0%;
+
+}
+
+.name .contenido .p-2 {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin-top: 8%;
+    margin-bottom: 0%;
+}
+
+
+.inf {
+    width: 90%;
+    height: auto;
+    background: #6F9283;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.inf .titulosele {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #FFFCF9 dashed;
+}
+
+.inf .tituloinf {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 1%;
+
+}
+
+.inf .infinf {
+    color: #171738;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
