@@ -1,0 +1,153 @@
+body{
+	background-color: #586F6B;
+	font-family: 'Sintony', sans-serif;
+	margin: 0;
+}
+
+header{
+	text-align: center;
+}
+
+header a {
+	text-decoration: none;
+	color: #CFC0BD;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+h1 a {
+	margin: 0px 100px
+}
+
+.welcome {
+	margin: 30vh auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.welcome h1{
+	font-size: 40px;
+	color: #CFC0BD;
+}
+
+.welcome p{
+	font-size: 20px;
+	color: #CFC0BD;
+}
+
+#cWelcome{
+	display: inline;
+}
+
+.AboutMe{
+	background-color: #B8B8AA;
+	height: 80vh;
+	text-align: center;
+	padding-top: 30px;
+	color: #586F6B;
+}
+
+.AboutMe h1{
+	padding-bottom: 7vh;
+}
+
+.am{
+	display: flex;
+	margin: auto;
+	height: 50vh;
+	background-color: #586F6B;
+	width: 70vw;
+	border-radius: 66px;
+}
+
+.am img{
+	height: 250px;
+	width: 250px;
+	margin:  60px 0px 0px 100px;
+	border-radius: 200px;
+	border: 5px solid #CFC0BD;
+	
+}
+
+.am p{
+	color: #CFC0BD;
+	margin:  150px 100px 0px 100px;
+}
+
+.Projects {
+	height: 80vh;
+	text-align: center;
+	padding-top: 30px;
+	color: #CFC0BD;
+}
+
+.Projects h1{
+	padding-bottom: 7vh;
+}
+
+.containProjects {
+	margin: 0 auto;
+	height: 50vh;
+	align-items: start;
+	justify-content: space-around;
+	background-color: #B8B8AA;
+	width: 70vw;
+	border-radius: 66px;
+	display: flex;
+}
+
+.project1 img{
+	margin-top: 120px;
+	width: 200px;
+	height: 150px;
+	border-radius: 20px;
+}
+
+.project2 img{
+	margin-top: 120px;
+	width: 200px;
+	height: 150px;
+	border-radius: 20px;
+	
+}
+
+.project1 img {
+	transition: transform 0.2s ease;
+  }
+  
+.project1 img:hover {
+	transform: scale(1.1);
+	filter: brightness(50%);
+  }
+
+  .project2 img {
+	transition: transform 0.2s ease;
+  }
+  
+.project2 img:hover {
+	transform: scale(1.1);
+	filter: brightness(50%);
+  }
+
+.contact{
+	background-color: #B8B8AA;
+	height: 100vh;
+	text-align: center;
+	padding-top: 30px;
+	color: #586F6B;
+}
+
+footer{
+	text-align: center;
+	color: #CFC0BD;
+	font-weight: bold;
+}
+
+.contact form{
+	display: block;
+}
+
+
+
+

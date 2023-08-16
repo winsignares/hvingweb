@@ -1,0 +1,36 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+        }
+        .profile {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .info {
+            margin-top: 20px;
+        }
+        .info h2 {
+            margin-bottom: 10px;
+        }
+        .education, .experience {
+            margin-top: 20px;
+        }
+        .skills {
+            margin-top: 20px;
+        }

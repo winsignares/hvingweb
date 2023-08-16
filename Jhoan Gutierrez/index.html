@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JGProjects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+</head>
+<body>
+    <!-- Contenido de tu página -->
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-j"></i>
+                    <div class="logo-text">Jhoan Gutierrez</div>
+                </div>
+                <nav>
+                    <div class="botonmenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="assets/mainlogo.jpeg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hola, soy <span class="input">Flutter Dev JR</span></h5>
+                    <h1>Jhoan Gutierrez</h1>
+                    <p> Actualmente soy estudiante de ingeniería de sistemas, atraído por el mundo de la programación tengo experiencia en Front-end y Back-end a nivel JR.
+                    </p>
+                    <div class="btn-group">
+                        <a href="assets/Cvejemplo.pdf" class="btn active">Descargar CV</a>
+                        <a href="https://wa.me/3022747582" class="btn">Contacto</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100068290881900"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/jhoan-guti%C3%A9rrez-a45a951b3/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCjXGzT1njJo7FRhgo5RpzqA"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="mailto:jhoangutierrezc@gmail.com"><i class="fas fa-envelope"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <section id="portafolio">
+                <div class="portafolio-c">
+                    <h2>Mi Portafolio</h2>
+                    <p>¡Hey! Por aquí te dejo un poco sobre la experiencia que tengo en diversas tecnologías. Mi trayectoria hasta el momento incluye:</p>
+                    
+                    <div class="column">
+                        <div class="experienciaflutter row">
+                            <h3>Desarrollo en Flutter</h3>
+                            <p>He trabajado en proyectos emocionantes usando Flutter, creando aplicaciones móviles multiplataforma con una interfaz de usuario elegante y un rendimiento excepcional.</p>
+                        </div>
+                        
+                        <div class="experienciajava row">
+                            <h3>Desarrollo en Java</h3>
+                            <p>Mi experiencia en desarrollo en Java abarca las aplicaciones de escritorio. He trabajado en proyectos que aprovechan la potencia y versatilidad de Java para ofrecer soluciones eficaces.</p>
+                        </div>
+                        
+                        <div class="experienciaweb row">
+                            <h3>Desarrollo Web</h3>
+                            <p>Explorando el mundo del desarrollo web, he creado sitios web modernos y receptivos utilizando HTML, CSS y JavaScript. Me enorgullece crear experiencias web atractivas y fáciles de usar.</p>
+                        </div>
+                        
+                        <div class="experienciadart row">
+                            <h3>Desarrollo en Dart</h3>
+                            <p>Con mi experiencia en el lenguaje Dart, he contribuido a la creación de aplicaciones web y móviles utilizando tecnologías como Flutter, logrando soluciones potentes y eficientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contacto">
+                <div class="mensajetittle">
+                    <h2>Envíame un mensaje!</h2>
+                    <div class="columnamensaje">
+                        <form action="https://formsubmit.co/jhoangutierrezc@gmail.com" method="POST" target="_blank"></form>
+                            <div class="camponombre campo">
+                                <label for="name">Nombre</label>
+                                <input id="name" type="text" height="100px" width="20px">
+                            </div>
+                            <div class="campomensaje campo">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" cols="40" rows="20" placeholder="type here"></textarea>
+                            </div>
+                            <div class="campocorreo campo">
+                                <label for="email">Email</label>
+                                <input id="email" type="email">
+                            </div>
+
+                            <div class="btn-submit">
+                                <button type="submit" value="enviar">Enviar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js">
+
+    </script>
+    <script>
+        /* boton que oculta el menu*/
+        var botonmenu = document.querySelector(".botonmenu");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelectorAll(".navlinks li");
+        
+        botonmenu.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+        //libreria typed js
+        var typed=new Typed(".input",{
+            strings:["Flutter Dev JR", "Java Dev JR", "Dart Dev JR", "Web Dev JR", "MySQL DBA JR"],
+            typedSpeed:75,
+            backSpeed:50,
+            loop:true
+        })
+    </script> 
+                     
+</body>
+</html>

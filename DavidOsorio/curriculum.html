@@ -26,34 +26,53 @@
             border-radius: 10px;
         }
         .containerflex{
+
+            border-radius: 50%;
             display: flex;
 
+        }
+        .container .containerflex{
+            width: 320pc;
+            border-radius: 50%;
         }
         .texto1{
             align-self: center;
             font-size: 40px;
         }
         .parrafo{
+            padding-left: 5%;
             font-size: 24px;
             line-height: 1.5;
             margin-bottom: 10px;
             margin: 0;
         }
         .nombre2{
+            padding-left: 5%;
             margin-bottom: 0;
+        }
+        .mimagen{
+            border-radius: 50%;
+            overflow: hidden;
+            border: .2px solid #000;
         }
     </style>
 </head>
 <body>
     <div id="nombre">
+    <div class="container">
         <div class="containerflex">
-            <img src="1.jpg">
+            <div class="mimagen">
+             <img src="FB_IMG_1692202308795.jpg" height="350px">   
+            </div>
+            
             <div class="texto1">
                 <h2 class="nombre2">David Osorio Suarez</h2>
          <p class="parrafo">Estudiante de ingenieria de sistemas </p>
             </div>
          
         </div>
+    </div>
+        
          
          <br>
          <br>
@@ -68,8 +87,8 @@
          </fieldset>
          <fieldset>
             <legend>Sobre mi</legend>
-            <p>Estudiante de ingenieria de sistemas, me considero una persona responsable</p>
-            <p>y ordenada, presto a trabajar en equipo y aprender, en busca de mi primera experiencia laboral</p>
+            <p>Estudiante de ingenieria de sistemas, me considero una persona responsable y</p>
+            <p>ordenada, presto a trabajar en equipo y aprender, en busca de mi primera experiencia laboral</p>
          </fieldset>
          <fieldset>
             <legend>Herramientas de software</legend>
