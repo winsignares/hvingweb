@@ -1,0 +1,56 @@
+
+body {
+  background-color: black;
+}
+div {
+  text-align: center;
+  font-size: 15px;
+}
+a{
+  color: azure;
+  font-size: 15px;
+}
+ul{
+  list-style-position: inside;
+  text-align: left;
+ 
+}
+form{
+  text-align: left;
+  margin-left: 25%;
+  width: 60%;
+  
+}
+.prin {
+
+
+  font-size: 29px;
+  width: 55%;
+  height: 1100px;
+  border: 5px solid rgb(20, 48, 27);
+display: flex; 
+margin-left: 25%;
+
+
+}
+.izquierda{
+  width: 40%;
+  height: 100%;
+  background-color: rgb(35, 120, 91);
+color: aliceblue;
+font-size: 20px;
+}
+.derecha{
+  background-color: rgb(202, 246, 237);
+  width: 60%;
+  height: 100%;
+
+}
+.si{
+  margin-top: 25%;
+}
+.full{
+
+  margin: 20% 10% 50% 20%;
+
+}
