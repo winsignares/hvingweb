@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background: #000000;
+}
+.name {
+    width: 100%;
+    height: 300px;
+    background: #9554ff;
+    transform: skewY(+3deg);
+}
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+.name .content .p1 {
+    color: #fff0ff;
+    font-family: "Baloo Tama 2", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(-3deg);
+    margin-bottom: 0;
+}
+.name .content .p2 {
+    color: #fff0ff;
+    font-family: "Baloo Tama 2", sans-serif;
+    font-size: 35px;
+    transform: skewY(-3deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.name .img {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 200px;
+    height: 200%;
+    border-radius: 0%;
+    transform: skewY(-3deg);
+    overflow: hidden;
+}
+.name .img img {
+    width: 180px;
+    height: 260px;
+}
+.info {
+    width: 90%;
+    height: auto;
+    background: #9554ff;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.info .titulo-info {
+    color: #fff0ff;
+    font-family: "Baloo Tama 2", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px black dashed;
+}
+.info .titulo-info-info {
+    color: #fff0ff;
+    font-family: "Baloo Tama 2", sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 10px;
+}
+.info .informacion {
+    color: black;
+    font-family: "Baloo Tama 2", sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
