@@ -132,7 +132,7 @@ a {
 
 /* showcase*/
 #Showcase {
-    background: url('/IMG/Inicio.jpeg');
+    background-image: url('/IMG/Inicio.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
