@@ -1,0 +1,135 @@
+body {
+    width: 25cm;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.Contenedor {
+    background-color: cornsilk;
+    max-width: 25cm;
+    height: max-content;
+    padding: 1cm;
+}
+
+.Encabezado {
+    display: flex;
+    align-items: center;
+    background-color: #6F4E37;
+    padding: 0.5cm;
+    justify-content: center;
+    border-radius: 15px;
+
+    .Nombre {
+        color: white;
+        max-width: 6cm;
+    }
+
+    .Age {
+        margin-top: -0.5cm;
+        color: white;
+    }
+
+    .MiFoto {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 1.5cm;
+        padding: 10px;
+        background-color: white;
+
+    }
+
+    .Contact {
+        margin-left: 3cm;
+        text-align: right;
+        max-width: 4cm;
+        color: white;
+    }
+}
+
+.AboutMe {
+    background-color: #6f4e379a;
+    padding: 0.5cm;
+    margin-top: 0.5cm;
+    border-radius: 15px;
+    max-width: 8cm;
+
+    color: white;
+
+    .TextADM {
+        text-align: justify;
+    }
+}
+
+.Habilidades {
+    background-color: #6f4e3759;
+    padding: 0.5cm;
+    margin-top: -10cm;
+    padding-bottom: 0.7cm;
+    border-radius: 15px;
+    max-width: 8cm;
+
+    .HAB {
+        color: white;
+    }
+
+    .TextHAB {
+        display: flex;
+        align-content: center;
+        margin-left: -1.1cm;
+        line-height: 1cm;
+        margin-top: -0.6cm;
+
+        .TitHab {
+            list-style: none;
+            color: white;
+
+        }
+
+        .CalHab {
+            list-style: none;
+            text-align: right;
+            font-weight: bold;
+            color: #6F4E37;
+        }
+    }
+}
+
+.ExpLaboral {
+    float: right;
+    background-color: #6f4e371c;
+    padding: 0.5cm;
+    margin-top: 0.5cm;
+    border-radius: 15px;
+    max-width: 12.5cm;
+    margin-left: 0.5cm;
+    color: #6F4E37;
+    padding-bottom: 4.5cm;
+
+}
+
+.Alineacion {
+    display: flex;
+    align-items: first baseline;
+}
+
+.Certificados {
+    background-color: #6f4e379a;
+    padding: 0.5cm;
+    margin-top: 0.5cm;
+    border-radius: 15px;
+    color: white;
+
+    text-align: center;
+
+    .Cert1 {
+        width: 21cm;
+        border-radius: 15px;
+    }
+    .Cert2{
+        width: 21cm;
+        margin-top: 0.5cm;
+        border-radius: 15px;
+    }
+}
